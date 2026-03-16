@@ -1,7 +1,7 @@
 services:
-  homepage:
+  homepage-static:
     build: .
-    container_name: homepage
+    container_name: homepage-static
     ports:
-      - "8080:80"
+      - "8088:80"
     restart: unless-stopped
